@@ -1,0 +1,1 @@
+Este sitio web es un carrito de compras de curso de especializacion en desarrollo de software.

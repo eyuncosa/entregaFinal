@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https: //fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Prociono&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <header>
+       
+        <div class="nav-list">
+            <nav>
+                <ul class="nav-list">
+                    <li></li> 
+                    <li> <a href="#">Tienda</a></li>
+                    <li> <a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-home"></i></li>
+                    <li><i class="fas fa-shopping-cart"></i></li>       
+                </ul>
+            </nav>
+        </div>
+       
+
+    </header>
+    <section class = "contenedorBanner">
+        <img src="images/logof.png" alt="logo">
+
+    </section>
+    <main>
+        <section class="contenedor_servicios">
+            <h1>Servicios</h1>
+            <div class="servicio">
+                <h3>Diagnóstico, actualización y Reparación de laptops y computadoras de escritorio. </h3>
+                
+            </div>
+            <div class="servicio">
+                <h3>Servicio on site</h3>
+                
+            </div>
+            
+        </section>
+        <section class="ventas">
+            
+           
+        </section>
+
+        <section id ="carrito">
+           <h2>Carrito</h2>
+            <ul>
+                
+            </ul>
+            <p>Total a Pagar: $0</p>
+            <input id ="btnBorrar" type="button" value="Borrar">
+            <input id = "btnPagar" type="button" value="Ir a Pagar">
+            <p id="mensaje"></p>
+        </section>
+        <section class="contenedor_resenas">
+            <h2 class="tr">Resenas</h2>
+            <p class="tr">Lo que opinan nuestros clientes....</p>
+            <div class="resenas">
+
+                <div class="resena">
+                    <h2 class="cite">Profesionales en reparaciones de laptops!!!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt, eligendi illum
+                        aliquam quidem sapiente quaerat alias ex,
+                        accusamus, repudiandae recusandae deleniti provident odit dicta nostrum earum commodi id.
+                        Eveniet!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus dolores velit
+                             cupiditate atque dolore optio, aspernatur quae quam porro, reiciendis eos eum provident, 
+                             ad necessitatibus aliquam illo cumque alias.</p>
+                    
+                    <cite>Seguros La Seguridad.</cite>
+                </div>
+
+                <div class="resena">
+                    <h2 class="cite">Excelente Servicio Técnico!!!!!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quo, atque laboriosam. Officia veritatis ratione asperiores sunt neque saepe magni. Consequuntur
+                        earum molestias sint odit quas voluptatibus laborum vel quam. Quasi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus pariatur recusandae ea saepe, 
+                        harum nesciunt aliquam voluptatem odio quibusdam commodi corporis laudantium distinctio natus doloremque!
+                         Sequi suscipit tempore molestias nisi?
+                    </p>
+                    
+                    <cite>Distribuidora Silyun.</cite>
+                </div>
+
+                <div class="resena">
+                    <h2 class="cite">Productos de calidad....!</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum esse ipsam impedit obcaecati
+                        aperiam,
+                        nam sapiente ab placeat labore nihil magni! Tempora voluptatem aspernatur dolore non maiores
+                        alia
+                        laborum impedit.
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sint, nobis libero eius dicta, 
+                            itaque harum tempore ducimus velit deserunt magnam praesentium hic minus nam alias iure quibusdam 
+                            dolor nemo!
+                        </p>
+                    </p>
+                    
+                    <cite>Pedro Peréz</cite>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h2><strong>Contacto</strong></h2>
+            <h3>Déjanos tu consulta.....!</h3>
+            <form>
+                <form action="https://formspree.io/f/manyepaw" method="post">
+                    <p>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="e-mail" required>
+                    </p>
+                    <p>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </p>
+                </form>
+        </section>
+    </main>
+   
+
+    <footer class="footer">
+
+        <div class="redes">
+            <h3>Siguenos en nuestras redes</h3>
+            <ul class="social-icons">
+                <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com" ><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" ><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com" ><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>@2024. United Systems. </p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+        <div class="contacto">
+            <p>Av Rivadavia 2032. CABA</p>
+            <p>Telefóno 11 33424321</p>
+
+        </div>
+        </section>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+}
+
+header {
+  position: relative;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgba(30, 70, 248, 0.63);
+    
+}
+
+header div {
+ 
+    justify-content: center;
+    position: relative;
+   
+}
+
+.logo img {
+   /* padding-top: 30px;
+    padding-left: 30px;*/
+    width: 65px;
+    height: auto;
+    position: relative;
+}
+
+
+.nav-list    {
+    display: flex;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+   
+    padding-top: 10px;
+    margin-left: 50px;
+   
+}
+
+.nav-list li {
+    align-items: center;
+    margin-right: 100px;
+}
+
+.nav-list a {
+    color:rgba(251, 251, 252, 0.801);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+.carrito{
+    display: flex; 
+    
+  }  
+
+.nav-iconos{
+    list-style: none; /* Remueve los puntos de la lista */ 
+    display: flex; /* Alinea los elementos de la lista en una fila */
+    
+    
+}
+
+.nav-iconos li{
+    
+    display: flex; 
+    margin-right: 20px; /* Espacio entre los iconos */ 
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav-iconos i{
+  display: flex;
+  padding-top: 20px;
+   font-size: 25px;
+   width: auto;
+   
+   margin-left: 40px;
+}
+/*contenido principal*/
+ main {
+    
+    margin: 0%;
+}
+
+.contenedor_servicios,.ventas {
+    margin-bottom: 0px;
+    background-color:rgb(10, 84, 129);
+}
+
+.servicios h2,.ventas h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.servicio {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 25rem;
+    gap: 3rem;
+    margin-top: 1 rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.servicio h3,.venta h3 {
+    margin-top: 0;
+}
+
+.venta button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*resenas*/
+
+.contenedor_resenas{
+ background-color: rgb(233, 209, 156);
+   
+   width: 100%;
+   height: 550px;
+
+}
+
+.resenas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 25rem;
+    gap: 3rem;
+    margin-top: 1 rem;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+.resena {
+    border: 2px solid blue;
+    border-radius: .5rem;
+    padding: 3rem;
+    background-color: rgba(125, 152, 241, 0.747);
+   
+} 
+.tr{
+    padding-top: 20px;
+    margin-left: 1rem;
+}
+.cite{
+   
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 20px;
+}
+
+cite{
+    color: aquamarine;
+    margin-top: 40px;
+}
+#contacto{
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    max-width: 100%; 
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    text-align: center; 
+    padding: 20px; 
+   color: aliceblue; 
+    background-image: url(images/pruba.jpg);
+    background-color: #9ba6ad;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que las columnas se envuelvan en pantallas pequeñas */
+    justify-content: space-between;
+    /* Distribuye el espacio entre columnas */
+    padding: 50px;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+.redes { 
+    list-style: none; 
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+    justify-content: center;
+     /* Centra los íconos */ 
+    }
+
+    #contacto button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+/*@media (max-width: 600px) {
+    #contacto {
+        padding: 10px;
+    }
+
+    #contacto form p {
+        margin-bottom: 10px;
+    }
+
+    #contacto h3 {
+        font-size: 18px; /* Ajusta el tamaño de la fuente */
+    }
+
+    #contacto input, #contacto textarea {
+        padding: 8px;
+    }
+
+    #contacto button {
+        padding: 8px 16px;
+    }
+}*/
+@media (max-width: 600px) {
+     body { 
+        background-color: lightgreen;
+     }
+     
+}
+@media (max-width: 600px) {
+     header { 
+        font-size: 1.5em;
+         }
+}
+    @media (min-width: 601px) and (max-width: 768px) { 
+        body { 
+            background-color: lightgreen ;
+        }
+    } 
+/* Estilo para dispositivos grandes (computadoras de escritorio) */ 
+@media (min-width: 769px) {
+     body { 
+        background-color: lightcoral; 
+        }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https: //fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Hind+Madurai:wght@300;400;500;600;700&family=Prociono&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logof.png" alt="logo">
+        </div>
+        <div class="nav-list">
+            <nav>
+                <ul class="nav-list">
+                    <li> <a href="#">Tienda</a></li>
+                    <li> <a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="carrito">
+            <nav>
+                <ul class="nav-iconos">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-home"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor_servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicio">
+                <h3>Diagnóstico, actualización y Reparación de laptops y computadoras de escritorio. </h3>
+                <p>Diagnóstico: Identificar problemas de hardware y software.
+                     Evaluar el rendimiento y determinar las causas de fallos, lentitud o errores.
+
+                    Actualización: Mejorar componentes y software. Instalar más memoria RAM, 
+                    reemplazar discos duros por SSDs, actualizar sistemas operativos y programas para aumentar el
+                     rendimiento y la seguridad.
+                    
+                    Reparación:
+                    Solucionar problemas encontrados. Reemplazar piezas defectuosas como pantallas, teclados y baterías. 
+                    Eliminar virus, reinstalar sistemas operativos y solucionar conflictos de software.
+                </p>
+            </div>
+            <div class="servicio">
+                <h3>Servicio on site</h3>
+                <p>Diagnóstico de Laptops: Ofrecemos un diagnóstico completo para detectar problemas de hardware y software 
+                    en tu laptop. Nuestro equipo de expertos realiza una evaluación detallada para identificar fallos, 
+                    lentitud y errores, asegurando que tu dispositivo funcione de manera óptima.
+
+                    Actualización de Laptops: Mejora el rendimiento de tu laptop con nuestras actualizaciones de hardware y
+                     software. Instalamos memoria RAM adicional, reemplazamos discos duros por unidades SSD y 
+                     actualizamos sistemas operativos y programas para ofrecerte la mejor experiencia posible.
+                    
+                    Reparación de Laptops: Reparamos componentes dañados y solucionamos problemas técnicos en tu laptop.
+                     Desde la sustitución de pantallas y teclados hasta la eliminación de virus y la reinstalación de sistemas
+                      operativos, nuestro servicio de reparación asegura que tu dispositivo vuelva a funcionar como nuevo.
+                    </p>
+            </div>
+            
+        </section>
+        <section class="ventas">
+            <h2>Ventas</h2>
+            <div class="venta">
+                <h3>Producto 1</h3>
+                <p>Descripción breve del producto 1.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="venta">
+                <h3>Producto 2</h3>
+                <p>Descripción breve del producto 2.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="venta">
+                <h3>Producto 3</h3>
+                <p>Descripción breve del producto 3.</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+        <section class="contenedor_resenas">
+            <h2 class="tr">Resenas</h2>
+            <p class="tr">Lo que opinan nuestros clientes....</p>
+            <div class="resenas">
+
+                <div class="resena">
+                    <h2 class="cite">Profesionales en reparaciones de laptops!!!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt, eligendi illum
+                        aliquam quidem sapiente quaerat alias ex,
+                        accusamus, repudiandae recusandae deleniti provident odit dicta nostrum earum commodi id.
+                        Eveniet!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga iste architecto commodi eius
+                        labore vel sunt, id minima, maiores,
+                        possimus iusto dolores aliquid earum suscipit adipisci sequi magni delectus optio.
+                    </p>
+                    <cite>Seguros La Seguridad.</cite>
+                </div>
+
+                <div class="resena">
+                    <h2 class="cite">Excelente Servicio Técnico!!!!!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quo, atque laboriosam. Officia veritatis ratione asperiores sunt neque saepe magni. Consequuntur
+                        earum molestias sint odit quas voluptatibus laborum vel quam. Quasi.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quo, atque laboriosam. Officia veritatis ratione asperiores sunt neque saepe magni. Consequuntur
+                        earum molestias sint odit quas voluptatibus laborum vel quam. Quasi.
+                    </p>
+                    <cite>Distribuidora Silyun.</cite>
+                </div>
+
+                <div class="resena">
+                    <h2 class="cite">Productos de calidad....!</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum esse ipsam impedit obcaecati
+                        aperiam,
+                        nam sapiente ab placeat labore nihil magni! Tempora voluptatem aspernatur dolore non maiores
+                        alia
+                        laborum impedit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quo, atque laboriosam. Officia veritatis ratione asperiores sunt neque saepe magni. Consequuntur
+                        earum molestias sint odit quas voluptatibus laborum vel quam. Quasi.
+
+                    </p>
+                    <cite>Pedro Peréz</cite>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h2><strong>Contacto</strong></h2>
+            <h3>Déjanos tu consulta.....!</h3>
+            <form>
+                <form action="https://formspree.io/f/manyepaw" method="post">
+                    <p>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="e-mail" required>
+                    </p>
+                    <p>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </p>
+                </form>
+        </section>
+    </main>
+   
+
+    <footer class="footer">
+
+        <div class="redes">
+            <h3>Siguenos en nuestras redes</h3>
+            <ul class="social-icons">
+                <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com" ><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" ><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com" ><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>@2024. United Systems. </p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+        <div class="contacto">
+            <p>Av Rivadavia 2032. CABA</p>
+            <p>Telefóno 11 33424321</p>
+
+        </div>
+        </section>
+    </footer>
+</body>
+
+</html>
